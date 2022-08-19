@@ -59,8 +59,24 @@
             <div class="container">
               <h2>Below are some helpful videos for beginner referees!</h2>
               <div class="owl-carousel">
-                <div class="item-video">
+                <div class="item-video" data-merge="1">
                   <a class="Referee-positioning" href="https://youtu.be/G5GXAEOLhP4"></a>
+                </div>
+
+                <div class="item-video" data-merge="1">
+                  <a class="Referee-positioning" href="https://youtu.be/bfLZmDXQcUs"></a>
+                </div>
+
+                <div class="item-video" data-merge="2">
+                  <a class="Referee-positioning" href="https://youtu.be/SL_E9DcBjmw"></a>
+                </div>
+
+                <div class="item-video" data-merge="1">
+                  <a class="Referee-positioning" href="https://youtu.be/twBPvyTFYu0"></a>
+                </div>
+
+                <div class="item-video" data-merge="2">
+                  <a class="Referee-positioning" href="https://youtu.be/mxBSQoSGn2k"></a>
                 </div>
               </div>
              
@@ -81,7 +97,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script type="text/javascript">
-      $(".owl-carousel").owlCarousel();
+      $(".owl-carousel").owlCarousel({
+        merge: true,
+        loop: true,
+        margin: 10,
+        video: true,
+        lazyLoad: true,
+        center: true,
+      });
     </script>      
     <script src="app.js"></script>
     <script src= main.js></script>
