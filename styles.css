@@ -207,6 +207,11 @@ p {
   margin: 5px 3px;
 }
 
+.owl-dot.active span {
+  background-color: #383535;
+  
+}
+
 
 /**Find-a-club-section**/
 .s4 {
