@@ -195,7 +195,7 @@ p {
 }
 
 .owl-dot {
-  display: inline-block;
+  display: inline;
 }
 
 .owl-dot span {
@@ -209,7 +209,7 @@ p {
 
 .owl-dot.active span {
   background-color: #383535;
-  
+
 }
 
 
