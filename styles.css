@@ -189,6 +189,25 @@ p {
   height: 300px;
 }
 
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  display: flex;
+}
+
+.owl-dot span {
+  width: 11px;
+  height: 11px;
+  background: #F6F2F2;
+  border-radius: 50%;
+  display: block;
+  margin: 5px 3px;
+}
+
+
 /**Find-a-club-section**/
 .s4 {
   height: 100vh;
