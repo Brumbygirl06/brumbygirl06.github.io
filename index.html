@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Karla:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </head>
 
 <body>
@@ -55,51 +56,16 @@
             <h1>Lead the charge! Become a referee and get amongst the action.</h1>
 
             <!--refereeing videos-->
-            <div id="carousel">
-              <div id="content">
-                <img
-                  class="item"
-                  src="https://youtu.be/G5GXAEOLhP4"
-                />
-                <img
-                  src="https://youtu.be/bfLZmDXQcUs"
-                  class="item"
-                />
-                <img
-                  src="https://youtu.be/SL_E9DcBjmw"
-                  class="item"
-                />
-                <img
-                  src="https://youtu.be/twBPvyTFYu0"
-                  class="item"
-                />
-                <img
-                  src="https://youtu.be/mxBSQoSGn2k"
-                  class="item"
-                />
-               
+            <div class="container">
+              <h2>Below are some helpful videos for beginner referees!</h2>
+              <div class="owl-carousel">
+                <div class="item-video">
+                  <a class="Referee-positioning" href="https://youtu.be/G5GXAEOLhP4"></a>
+                </div>
               </div>
+             
             </div>
-            <button id="prev">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path fill="none" d="M0 0h24v24H0V0z" />
-                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
-              </svg>
-            </button>
-            <button id="next">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path fill="none" d="M0 0h24v24H0V0z" />
-                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+            
         </div>
 
             
@@ -112,7 +78,11 @@
             <h1>About Us</h1>
         </div>
 
-          
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel();
+    </script>      
     <script src="app.js"></script>
     <script src= main.js></script>
 </body>

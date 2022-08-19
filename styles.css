@@ -176,6 +176,18 @@ p {
     padding: 35px;
 }
 
+/**YouTube Videos**/
+.container {
+  margin-top: 80px;
+}
+
+.owl-carousel {
+  top: 40px;
+}
+
+.owl-carousel .item-video {
+  height: 300px;
+}
 
 /**Find-a-club-section**/
 .s4 {
