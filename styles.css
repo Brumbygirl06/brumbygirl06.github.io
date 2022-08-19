@@ -195,7 +195,7 @@ p {
 }
 
 .owl-dot {
-  display: flex;
+  display: inline-block;
 }
 
 .owl-dot span {
