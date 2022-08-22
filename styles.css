@@ -138,16 +138,16 @@ p {
   
 }
 
-.s2 .container {
+.container {
   position: relative;
   width: 50%;
 }
 
-.s2 .container:hover .overlay {
+.container:hover .overlay {
   opacity: 1;
 }
 
-.s2 .overlay {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
