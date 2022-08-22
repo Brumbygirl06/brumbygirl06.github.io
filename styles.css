@@ -39,7 +39,6 @@ body {
  }
 
  header ul {
-  z-index: 10000;
   position: relative;
   display: flex;
   justify-content: center;
@@ -100,10 +99,11 @@ p {
 }
 
 /**How-to-play-section**/
-.s2 .wrapper{
+.s2 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 5px;
+  z-index: 2;
 }
 
 img {
