@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rugby W</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.81/dist/themes/light.css"/>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,8 +28,7 @@
     
         <div class="section s1" id="home" >
             <h1>Rugby Union is a global game for all ages, genders, sizes and backgrounds. <br>Welcome to Rugby W the home of Women's Rugby</h1>
-            <img class="hero-img" src="./Photo-gallery/not-just-men.jpg"
-
+            <img class="hero-img" src="./Photo-gallery/not-just-men.jpg">
         </div>
 
         <div class="section s2" id="how-to-play">
@@ -148,6 +148,14 @@
         <div class="section s4" id="find">
             <h1>Find a club</h1>
             <h3>Enter your postcode below to find your nearest club</h3>
+            <sl-input label="Enter your postcode"></sl-input>
+            <sl-alert variant="success" open>
+              <sl-icon slot="icon" name="check2-circle"></sl-icon>
+              <strong>Thank you for using this form</strong>
+            </sl-alert>
+            <sl-tooltip content="Click again to dismiss" trigger="click">
+              <sl-button>Click to close</sl-button>
+            </sl-tooltip>
         </div>
 
         <div class="section s5" id="about">
@@ -165,7 +173,8 @@
         lazyLoad: true,
         center: true,
       });
-    </script>      
+    </script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.81/dist/shoelace.js"></script>      
     <script src="app.js"></script>
     <script src= main.js></script>
 </body>
