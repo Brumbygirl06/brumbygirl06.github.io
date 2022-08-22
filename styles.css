@@ -91,6 +91,7 @@ p {
     height: 100vh;
     box-sizing: border-box;
     background: url("./Photo-gallery/not-just-men.jpg");
+    object-fit: cover;
     background-position: top center;
     padding: 35px;
 }
