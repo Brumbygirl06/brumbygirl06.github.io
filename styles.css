@@ -96,7 +96,7 @@ p {
 }
 
 /**How-to-play-section**/
-.s2 .image-grid {
+.image-grid {
   --gap: 16px;
   --num-cols: 4;
   --row-height: 300px;
