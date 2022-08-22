@@ -90,7 +90,6 @@ p {
 .s1 {
     height: 100vh;
     box-sizing: border-box;
-    background: url './Photo-gallery/not-just-men.jpg';
     background-position: top center;
     padding: 35px;
 }
@@ -122,39 +121,6 @@ p {
   height: auto;
 }
 
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #A81B8F;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 .image-grid-col-2 {
   grid-row: span 2;
 
@@ -171,6 +137,40 @@ p {
   }
   
 }
+
+.s2 .container {
+  position: relative;
+  width: 50%;
+}
+
+.s2 .container:hover .overlay {
+  opacity: 1;
+}
+
+.s2 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A81B8F;
+}
+
+.container .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 
 /**Referee-section**/
