@@ -213,6 +213,11 @@ img {
   padding: 35px;
 }
 
+.map {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
 /**About-Us-Section**/
 .s5 {
   height: 100vh;
