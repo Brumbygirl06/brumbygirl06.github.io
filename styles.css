@@ -122,23 +122,6 @@ p {
   height: auto;
 }
 
-.image-grid-col-2 {
-  grid-row: span 2;
-
-}
-
-.image-grid-row-2 {
-  grid-column: span 2;
-  
-}
-@media screen and (max-width = 1024px) {
-  .image-grid {
-    --num-cols: 2;
-    --row-height: 200px;
-  }
-  
-}
-
 .container {
   position: relative;
   width: 50%;
@@ -170,6 +153,23 @@ p {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.image-grid-col-2 {
+  grid-row: span 2;
+
+}
+
+.image-grid-row-2 {
+  grid-column: span 2;
+  
+}
+@media screen and (max-width = 1024px) {
+  .image-grid {
+    --num-cols: 2;
+    --row-height: 200px;
+  }
+  
 }
 
 
