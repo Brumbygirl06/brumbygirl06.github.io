@@ -28,6 +28,7 @@ body {
  }
 
  header .logo {
+  z-index: 10000;
   position: relative;
   font-weight: 700;
   color: #A81B8F;
@@ -38,6 +39,7 @@ body {
  }
 
  header ul {
+  z-index: 10000;
   position: relative;
   display: flex;
   justify-content: center;
