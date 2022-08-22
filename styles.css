@@ -93,7 +93,8 @@ p {
     background-image: url(./Photo-gallery/Jonny\ Wilkinson.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
+    opacity: 0.8;
 }
 
 /**How-to-play-section**/
