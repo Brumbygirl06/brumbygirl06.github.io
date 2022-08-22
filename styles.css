@@ -97,24 +97,19 @@ p {
 }
 
 /**How-to-play-section**/
-.image-grid {
-  --gap: 16px;
-  --num-cols: 4;
-  --row-height: 300px;
-
-   box-sizing: border-box;
-   padding: var(--gap);
-
-   display: grid;
-   grid-template-columns: repeat(var(--num-cols), 1fr);
-   grid-auto-rows: var(--row-height);
-   gap: var(--gap);
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 5px;
 }
 
-.image {
-  display: block;
+img {
   width: 100%;
-  height: auto;
+  border-radius: 20px;
+}
+
+.box {
+  padding: 10px;
 }
 
 .container {
