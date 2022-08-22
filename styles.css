@@ -132,6 +132,7 @@ img {
   opacity: 0;
   transition: .5s ease;
   background-color: #A81B8F;
+  border-radius: 20px;
 }
 
 .container .title {
