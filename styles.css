@@ -91,6 +91,7 @@ p {
     height: 100vh;
     box-sizing: border-box;
     background-image: url(./Photo-gallery/Jonny\ Wilkinson.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
 }
