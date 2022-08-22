@@ -122,7 +122,16 @@ p {
   height: auto;
 }
 
-.image_overlay {
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -131,12 +140,8 @@ p {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.5s ease;
+  transition: .5s ease;
   background-color: #A81B8F;
-}
-
-.s2 .image-grid:hover .image_overlay {
-  opacity: 0.5;
 }
 
 .text {
