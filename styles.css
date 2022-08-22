@@ -90,11 +90,9 @@ p {
 .s1 {
     height: 100vh;
     box-sizing: border-box;
-    background: url("./Photo-gallery/not-just-men.jpg");
-    max-width: 100%;
-    height: auto;
+    background-image: url(./Photo-gallery/Jonny\ Wilkinson.jpg);
+    background-repeat: no-repeat;
     background-position: top center;
-    padding: 35px;
 }
 
 /**How-to-play-section**/
