@@ -99,8 +99,9 @@ p {
 }
 
 /**How-to-play-section**/
-.s2{
-  position: fixed;
+.s2 {
+  height: 100vh;
+  box-sizing: border-box;
   top: 0;
   left: 0;
   width: 100%;
