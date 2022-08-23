@@ -25,6 +25,7 @@ body {
     padding: 40px 100px;
     background: rgb(248,248,254);
     background: linear-gradient(90deg, rgba(248,248,254,1) 0%, rgba(248,248,254,1) 35%, rgba(168,27,143,1) 100%);
+    z-index: 100000;
  }
 
  header .logo {
@@ -43,7 +44,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 100000;
  }
 
  header ul li {
