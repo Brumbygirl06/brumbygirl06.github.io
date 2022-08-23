@@ -91,7 +91,7 @@ p {
 .s1 {
     height: 100vh;
     box-sizing: border-box;
-    background-image: url(./Photo-gallery/Jonny\ Wilkinson.jpg);
+    background-image: url(./Photo-gallery/not-just-men.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -100,29 +100,45 @@ p {
 }
 
 /**How-to-play-section**/
-.s2 .wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 5px;
-  z-index: 2;
-}
-
-img {
+.s2{
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  border-radius: 20px;
-}
-
-.box {
-  padding: 10px;
+  height: 100%;
+  overflow: scroll;
+  background-image: url(./Photo-gallery/Jonny\ Wilkinson\ crop.jpg);
+  opacity: 0.8;
 }
 
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding: 100px 2vw;
 }
 
-.container:hover .overlay {
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+}
+
+.pos-img {
+  width: 100%;
+}
+.post:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .overlay {
@@ -133,13 +149,15 @@ img {
   right: 0;
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
   opacity: 0;
   transition: .5s ease;
   background-color: #A81B8F;
   border-radius: 20px;
 }
 
-.container .title {
+.overlay .title {
   color: #383535;
   font-size: 20px;
   position: absolute;
@@ -147,9 +165,9 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: top center;
 }
-.container .text {
+.overlay .text {
   color: white;
   font-size: 20px;
   position: absolute;
