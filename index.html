@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Karla:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.81/dist/themes/light.css"/>
 </head>
 
 <body>
@@ -130,10 +131,11 @@
             <h1>Find a club</h1>
             <h3>Enter your postcode below to find your nearest club</h3>
             <img class="map" src="./Photo-gallery/Australia Map.jpg" alt="Map">
-        </div>
-
-        <div class="section s5" id="about">
-            <h1>About Us</h1>
+            <sl-dialog label="Dialog" class="dialog-width" style="--width: 50vw;">
+              Thanks for entering your postcode
+              <sl-button slot="footer" variant="primary">Close</sl-button>
+            </sl-dialog>
+            <sl-button>Open Dialog</sl-button>
         </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -150,6 +152,15 @@
     </script>  
     <script src="items.js"></script>   
     <script src="app.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.81/dist/shoelace.js"></script>
+    <script>
+      const dialog = document.querySelector('.dialog-width');
+      const openButton = dialog.nextElementSibling;
+      const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+    
+      openButton.addEventListener('click', () => dialog.show());
+      closeButton.addEventListener('click', () => dialog.hide());
+    </script>
     <script src= main.js></script>
 </body>
 </html>
