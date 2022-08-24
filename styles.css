@@ -39,6 +39,14 @@ body {
   transition: 0.6s;
  }
 
+ .logo {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: tada; 
+  animation-duration: 2s; 
+}
+
  header ul {
   position: relative;
   display: flex;
@@ -122,7 +130,7 @@ p {
   border-radius: 5px;
 }
 
-.carousel_button_previous .carousel_button_next {
+.carousel_button_previous {
   background: #A81B8F;
   border: 0;
   border-radius: 50px;
