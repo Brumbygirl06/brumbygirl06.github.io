@@ -144,6 +144,10 @@ p {
   z-index: 1;
 }
 
+.carousel_button_previous {
+  left: 5px;
+}
+
 .carousel_button_next {
   background: #A81B8F;
   border: 0;
@@ -156,10 +160,6 @@ p {
   opacity: 0.25;
   width: 3rem;
   z-index: 1;
-}
-
-.carousel_button_previous {
-  left: 5px;
 }
 
 .carousel_button_next {
