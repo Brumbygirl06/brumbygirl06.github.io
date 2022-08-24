@@ -218,12 +218,12 @@ sl-progress-bar {
   }
 }
 
-.s2 .column .image:hover .overlay {
+.image:hover .overlay {
   opacity: 1;
   cursor: pointer;
 }
 
-.s2 .column .overlay {
+.s2 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -239,7 +239,7 @@ sl-progress-bar {
   border-radius: 20px;
 }
 
-.overlay .title {
+.s2 .overlay .title {
   color: #383535;
   font-size: 20px;
   position: absolute;
